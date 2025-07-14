@@ -122,9 +122,27 @@ This is the most common use case. The `-p` flag will search the Chaos dataset fo
     python3 OneSnap.py -p dell
     ```
 *   **Find subdomains for multiple programs:**
+*   Example:
     ```bash
-    python3 OneSnap.py -p "t-mobile" shopify
+    
+     python3 OneSnap.py -p t-mobile,shopify --shodan --httpx
     ```
+    ```bash
+     python3 OneSnap.py -p dell
+    ```
+    ```bash
+     python3 OneSnap.py --private all_pvt_subdomains_list.txt --shodan --httpx
+    ```
+    ```bash
+     python3 OneSnap.py -bugcrowd --shodan --httpx
+    ```
+    ```bash
+     python3 OneSnap.py -bugcrowd --shodan
+    ```
+    ```bash
+     python3 OneSnap.py -bugcrowd -h1 -intigriti --shodan --httpx
+    ```
+    
 
 #### Target a Bug Bounty Platform
 Use flags to gather subdomains for all programs on a platform.
