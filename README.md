@@ -65,7 +65,7 @@ One Snap is designed to be as simple as possible to set up.
     The first time you run the script, it will automatically install all necessary Python packages (`requests`, `tqdm`, `tldextract`, `shodan`).
     
     ```bash
- python3 OneSnap.py --help
+    python3 OneSnap.py --help
 
 ```    
      ___````````````````````______```````````````````````````
@@ -81,9 +81,6 @@ One Snap is designed to be as simple as possible to set up.
 --------------------------------------------------------------------------------
        x.com/starkcharry | github.com/7ealvivek | bugcrowd.com/realvivek
 --------------------------------------------------------------------------------
-```
-
-```
 ```
 ```
 usage: test12.py [-h] [-p PROGRAM [PROGRAM ...]] [--private PRIVATE] [--shodan] [--rerun-chaos] [--httpx] [-bugcrowd] [-h1] [-intigriti] [-yeswehack] [-hackandproof]
@@ -105,11 +102,10 @@ Bounty Platforms (Optional, ignored if --program is used):
   -intigriti
   -yeswehack
   -hackandproof
-  ```
-    ```
-
+```
+`
     # PLEASE MAKESURE TO USE THE TOOL UNDER THE SCREEN COMMAND OF ANY VPS, BECAUSE IT TAKES TIME TO DOWNLOAD ALL THE LAKHS OF SUBDOMAINS AVAILABLE ( APPROX MAX TIME 2-3 HOURS ) TO COMPLETE
-
+`
 ---
 
 ## 🚀 Usage
@@ -144,7 +140,7 @@ Use flags to gather subdomains for all programs on a platform.
 
 #### Use a Private List 
 
-# # ( Load your Pvt Program list domain/subdomain, any format, it will run c99 & Shodan over root domains and increase your attack surface by 20-30% )
+## ( Load your Pvt Program list domain/subdomain, any format, it will run c99 & Shodan over root domains and increase your attack surface by 20-30% )
 
 Scan only the domains/subdomains from a local file. This will not download any public data unless another flag is used.
 
